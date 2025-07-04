@@ -1,0 +1,109 @@
+{
+  "source_file": "10thsoc_student5.json",
+  "results": [
+    {
+      "source_file": "samp_output.json",
+      "question_id": "A1",
+      "question": "What do you understand by Resource?",
+      "ocr_answer": "everything quelable in our environment which can be used to satisity our ineeded it provided it tecnologicalyaccesible economically fireable culturally acceptable can be termed as resources",
+      "reference_answer": "Resources are naturally occurring or human-made materials that have utility and value for humans. They include natural resources (like minerals, water, forests), human resources (knowledge, skills), and human-made resources (buildings, technology). Resources are characterized by utility, availability, and potential for development. Their value can change based on technological development, cultural preferences, and economic factors.",
+      "diagram_or_equation": "",
+      "scores": {
+        "content_score": 0.674,
+        "relevance_score": 0.709,
+        "final_score": 0.692
+      }
+    },
+    {
+      "source_file": "samp_output.json",
+      "question_id": "A2",
+      "question": "Which states in India are rich in minerals and coal deposits?",
+      "ocr_answer": "torkand schicktishigar and may madhya pradesh",
+      "reference_answer": "Jharkhand, Chhattisgarh, Odisha, West Bengal, and Madhya Pradesh are particularly rich in minerals and coal deposits. Jharkhand and Chhattisgarh together form part of the Chota Nagpur plateau which contains some of India's largest mineral reserves. Other mineral-rich states include Maharashtra (manganese), Karnataka (iron ore), and Rajasthan (zinc, copper).",
+      "diagram_or_equation": "",
+      "scores": {
+        "content_score": 0.41,
+        "relevance_score": 0.489,
+        "final_score": 0.449
+      }
+    },
+    {
+      "source_file": "samp_output.json",
+      "question_id": "A3",
+      "question": "Which report in 1987 introduced the concept of 'Sustainable Development\"?",
+      "ocr_answer": "brunkland commission report",
+      "reference_answer": "The 'Our Common Future' report, also known as the Brundtland Report, published by the World Commission on Environment and Development (WCED) in 1987, introduced the concept of 'Sustainable Development'. The report defined sustainable development as 'development that meets the needs of the present without compromising the ability of future generations to meet their own needs.'",
+      "diagram_or_equation": "",
+      "scores": {
+        "content_score": 0.383,
+        "relevance_score": 0.43,
+        "final_score": 0.407
+      }
+    },
+    {
+      "source_file": "samp_output.json",
+      "question_id": "A4",
+      "question": "What is the total geographical area of India?",
+      "ocr_answer": "8 28 million sqkm",
+      "reference_answer": "The total geographical area of India is approximately 3.287 million square kilometers (about 328.7 million hectares). This makes India the seventh-largest country in the world by land area.",
+      "diagram_or_equation": "",
+      "scores": {
+        "content_score": 0.509,
+        "relevance_score": 0.546,
+        "final_score": 0.528
+      }
+    },
+    {
+      "source_file": "samp_output.json",
+      "question_id": "A5",
+      "question": "How much degraded land is in India?",
+      "ocr_answer": "there are about 130 million hectorees of degraded land in india",
+      "reference_answer": "Approximately 96.4 million hectares (about 29.32% of India\u2019s total geographical area) is degraded land in India. This includes land affected by water and wind erosion, salinity, soil acidity, waterlogging, and other forms of land degradation.",
+      "diagram_or_equation": "",
+      "scores": {
+        "content_score": 0.701,
+        "relevance_score": 0.714,
+        "final_score": 0.707
+      }
+    },
+    {
+      "source_file": "samp_output.json",
+      "question_id": "A6",
+      "question": "What do you understand by International resources? Give example.",
+      "ocr_answer": "there are resource which by international institution 2 example of the oceanic resource beyond 200km of the exclutive economic zone belong to the open occenic resource by the resource concendeence of international institution",
+      "reference_answer": "International resources are resources that are regulated and owned by international organizations, not by any single country. For example, the oceanic resources beyond 200 nautical miles from a country\u2019s coast (in the open sea) can only be used with the permission of international institutions.",
+      "diagram_or_equation": "",
+      "scores": {
+        "content_score": 0.727,
+        "relevance_score": 0.685,
+        "final_score": 0.706
+      }
+    },
+    {
+      "source_file": "samp_output.json",
+      "question_id": "A7",
+      "question": "Mention some features of arid soil.",
+      "ocr_answer": "othe following features of arid soils are the ared soils are range from red to brown hope the arad soils are generatedly sandy in the high nature the lower layer of the dry climate high temperature and fast evapartion the lower of the arid soils are following global blaring cries of layers anglobal warming and land degradation",
+      "reference_answer": "Features of arid soil include:\n- Light texture with sandy or sandy-loam consistency\n- Low organic matter content due to sparse vegetation\n- High mineral content, particularly salts\n- Low moisture retention capacity\n- High pH value (alkaline in nature)\n- Low in nitrogen and often phosphorus\n- Presence of calcium carbonate and gypsum\n- Susceptible to wind erosion\n- Light (typically reddish-brown to pale brown)\n- Poorly developed soil profile with thin horizons",
+      "diagram_or_equation": "",
+      "scores": {
+        "content_score": 0.75,
+        "relevance_score": 0.75,
+        "final_score": 0.75
+      }
+    },
+    {
+      "source_file": "samp_output.json",
+      "question_id": "A8",
+      "question": "Explain the role of humans in resource development.",
+      "ocr_answer": "humans in the following resource development actually hall resource are the become resource when they are to used put the resource it humans are chence the humans of resource the state of the humans are constant roads buliding hospitals houses and other propertys and unfit of the doctors engineers scintisets tetachers e t ex the resources are the by to the resource and that the developments",
+      "reference_answer": "Humans play a crucial role in resource development through:\n- Identification and discovery of resources through research and exploration\n- Development of technology to access, extract, and process resources more efficiently\n- Creation of infrastructure for resource utilization and distribution\n- Transformation of natural materials into more valuable forms through manufacturing\n- Conservation and sustainable management practices to prevent resource depletion\n- Creation of human-made resources through knowledge, skills and innovation\n- Resource planning and policy implementation for optimal resource allocation",
+      "diagram_or_equation": "",
+      "scores": {
+        "content_score": 0.723,
+        "relevance_score": 0.723,
+        "final_score": 0.723
+      }
+    }
+  ]
+}

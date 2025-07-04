@@ -1,0 +1,78 @@
+
+
+# grade_responses_task:
+#   description: >
+#     Grade a batch of student answers using the associated rubrics : {rubrics} and answers : {answers}.
+
+#     For each answer:
+#     - Match the question to the rubric to retrieve the maximum mark and reference answer
+#     - Use the relevance_score to assess how directly the answer responds to the question
+#     - Combine relevance_score and content_score to determine the final_score
+#     - Apply the rubric's max marks to scale the score accordingly (e.g., final_score × max_marks)
+#     - Decide if the student passes (threshold: 40% of max marks)
+#     - Identify key scientific concepts present in the student answer
+#     - Provide detailed justification for all assigned scores and marks
+#     - Offer constructive, clear suggestions to improve both content and relevance
+
+#     Handle complex answer formats:
+#     - Multi-part responses (e.g., a/b, i/ii)
+#     - Diagram- or sketch-required questions
+#     - Partially answered or vague responses
+
+#   expected_output: >
+#     A list of evaluated responses with the following fields:
+#     - full question text
+#     - Rubric max marks
+#     - Student answer and reference answer
+#     - Scores:
+#         • final_score (average or weighted of the two, scaled to max_marks)
+#         • final_score_raw (0–1 unscaled score for auditing)
+#     - Final marks (final_score × max_marks, rounded)
+#     - Pass/Fail status (Pass if final_score ≥ 0.4)
+#     - Concepts identified
+#     - Feedback:
+#         • Score justification
+#         • Suggestions for improving relevance, depth, or clarity
+#   agent: rubric_grader
+
+
+grade_responses_task:
+  description: >
+    Grade student answers using rubric-based validation : {rubrics}, reference answers, relevance scores : {answers}
+    and explicit visual expectations (e.g., diagrams or equations).
+
+
+    For each response:
+    - Match the question with the corresponding rubric entry
+    - Validate that the student has attempted the correct question
+    - Validate if the question requires a diagram or equation (visual_required)
+    - Consider scientific accuracy, clarity, and completeness for content evaluation
+    - Use relevance_score as a signal of alignment to the question
+    - If visual is required:
+        • Check if student included a diagram or described it
+        • Award partial credit for labeled descriptions or verbal attempts
+    - Grade generously like a high school teacher: reward effort, concept understanding, even if visuals are incomplete or missing labels
+    - Score liberally: give marks for effort, partially correct answers, and reasonable phrasing
+    - Provide feedback on both content and visual component
+    - Assign final marks using judgment, not just score multiplication
+
+  expected_output: >
+    A list of graded responses, including:
+    - question_id
+    - question_text
+    - rubric_max_marks
+    - student_answer
+    - reference_answer
+    - visual_present: true/false/partial
+    - final_marks_awarded
+    - concepts_covered
+    - feedback:
+        • justification for marks
+        • specific feedback on visual elements
+        • improvement_suggestions
+
+
+    Total Marks of the student : "..."
+
+  agent: rubric_grader
+
